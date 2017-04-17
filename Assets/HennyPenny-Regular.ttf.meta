@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: aa3518d364311d74e80763fa7df8373d
+timeCreated: 1486247118
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Henny Penny
+  fontNames:
+  - Henny Penny
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

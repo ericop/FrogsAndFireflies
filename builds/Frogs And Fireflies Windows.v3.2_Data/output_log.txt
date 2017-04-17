@@ -1,0 +1,73 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 200 Series (ID=0x683d)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   21.19.137.514
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.102 seconds
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Program Files (x86)\Unity\Projects\FrogsAndFlies_Project3\builds\Frogs And Fireflies Windows.v3.2_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 60Hz; virtual: 5600x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 31.697945 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 29.105307 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 557.
+Total: 29.510540 ms (FindLiveObjects: 0.021519 ms CreateObjectMapping: 0.019533 ms MarkObjects: 27.512184 ms  DeleteObjects: 1.953000 ms)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+False
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.816426 ms
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 303.
+Total: 1.501748 ms (FindLiveObjects: 0.036086 ms CreateObjectMapping: 0.018209 ms MarkObjects: 0.153949 ms  DeleteObjects: 1.293171 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 221c -> priority: 1 
