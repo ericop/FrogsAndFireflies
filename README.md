@@ -13,4 +13,8 @@ This is a 2 player game where each player controls a frog to catch fireflies to 
 
 ## Games Assets
 
-- This game uses visuals (.png files) extracted from https://www.glitchthegame.com/public-domain-game-art/ 
+- Image Assest for this game are from Glitch the Game https://www.glitchthegame.com/ and are in public domain.
+- Music is by syncopika (http://opengameart.org/content/forest and https://greenbearmusic.bandcamp.com/album/bgm-fun-vol-5) and by remaxim (http://opengameart.org/content/nature-theme-sketch)
+- Sounds effects by EricOP and Ellie.
+- This game FrogsAndFirefliesByEopAndEllie draws inspiration from the Atari 2600 title Frogs and Flies.
+- All other credits to creator EricOP, https://github.com/ericop
