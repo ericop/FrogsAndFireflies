@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/splash.unity
+- path: Assets/battle.unity
   isLoaded: 1
   isActive: 1
