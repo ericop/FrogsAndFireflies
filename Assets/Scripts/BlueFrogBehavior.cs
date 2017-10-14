@@ -19,7 +19,13 @@ public class BlueFrogBehavior : MonoBehaviour
         // Still Not needed, even RedFrog's IgnoreCollision is take care of in the RedFrogBehavior.Start()
         var character = GetComponent<Rigidbody2D>();
         var opponentFrog = GameObject.FindWithTag("RedFrog");
-        Physics2D.IgnoreCollision(character.GetComponent<Collider2D>(), opponentFrog.GetComponent<Collider2D>());
+
+		var isBattleMode = PlayerPrefs.HasKey ("isBattleMode") && PlayerPrefs.GetString ("isBattleMode") == "true";
+
+		if (!isBattleMode)
+		{
+			Physics2D.IgnoreCollision (character.GetComponent<Collider2D> (), opponentFrog.GetComponent<Collider2D> ());
+		}
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -29,10 +35,11 @@ public class BlueFrogBehavior : MonoBehaviour
             var fireflyThatWeHit = coll.gameObject;
             Destroy(fireflyThatWeHit);
             score += 1;
-            var redScore = GameObject.FindWithTag("BlueScore").GetComponent<Text>();
-            redScore.text = "Blue Hugh's Score: " + score + "/20";
+            var blueScore = GameObject.FindWithTag("BlueScore").GetComponent<Text>();
+			blueScore.text = "Blue Hugh's Score: " + score + "/20";
             if (score >= 20)
             {
+				score = 0;
                 StartCoroutine("YouWin");
             }
         }
@@ -40,6 +47,17 @@ public class BlueFrogBehavior : MonoBehaviour
 
 	void OnBecameInvisible() 
 	{
+		var isBattleMode = PlayerPrefs.HasKey ("isBattleMode") && PlayerPrefs.GetString ("isBattleMode") == "true";
+
+		if (isBattleMode) 
+		{
+			if (score > 0)
+			{
+				score -= 1;
+			}
+			var blueScore = GameObject.FindWithTag("BlueScore").GetComponent<Text>();
+			blueScore.text = "Blue Hugh's Score: " + score + "/20 after fall";
+		}
 		RebootPosition ();
 	}
 

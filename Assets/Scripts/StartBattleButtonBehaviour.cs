@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButtonBehaviour : MonoBehaviour
+public class StartBattleButtonBehaviour : MonoBehaviour
 {
     private void Update()
     {
@@ -12,10 +12,11 @@ public class StartButtonBehaviour : MonoBehaviour
             Application.Quit();
         }
     }
-    public void ButtonClick()
-    {
-		PlayerPrefs.SetString ("isBattleMode", "false");
-        SceneManager.LoadScene("main");
-    }
-		
+
+	public void ButtonClick()
+	{
+
+		PlayerPrefs.SetString ("isBattleMode", "true");
+		SceneManager.LoadScene("battle");
+	}
 }

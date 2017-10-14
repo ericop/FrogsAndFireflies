@@ -19,8 +19,13 @@ public class RedFrogBehavior : MonoBehaviour
 
         var character = GetComponent<Rigidbody2D>();
         var opponentFrog = GameObject.FindWithTag("BlueFrog");
-        Physics2D.IgnoreCollision(character.GetComponent<Collider2D>(), opponentFrog.GetComponent<Collider2D>());
 
+		var isBattleMode = PlayerPrefs.HasKey ("isBattleMode") && PlayerPrefs.GetString ("isBattleMode") == "true";
+
+		if (!isBattleMode) 
+		{
+			Physics2D.IgnoreCollision (character.GetComponent<Collider2D> (), opponentFrog.GetComponent<Collider2D> ());
+		}
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -36,6 +41,7 @@ public class RedFrogBehavior : MonoBehaviour
 
             if (score >= 20)
             {
+				score = 0;
                 StartCoroutine("YouWin");
             }
         }
@@ -107,6 +113,17 @@ public class RedFrogBehavior : MonoBehaviour
 
 	void OnBecameInvisible() 
 	{
+		var isBattleMode = PlayerPrefs.HasKey ("isBattleMode") && PlayerPrefs.GetString ("isBattleMode") == "true";
+
+		if (isBattleMode) 
+		{
+			if (score > 0)
+			{
+				score -= 1;
+			}
+			var redScore = GameObject.FindWithTag("RedScore").GetComponent<Text>();
+			redScore.text = "Red Fred's Score: " + score + "/20        after fall";
+		}
 		RebootPosition ();
 	}
 
