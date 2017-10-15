@@ -14,6 +14,9 @@ public class StartButtonBehaviour : MonoBehaviour
     }
     public void ButtonClick()
     {
+        // no longer using isBattleMode playerpref, but setting it ass bool on object in Unity GUI
+        //PlayerPrefs.SetString ("isBattleMode", "false");
         SceneManager.LoadScene("main");
     }
+		
 }
