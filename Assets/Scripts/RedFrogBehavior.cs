@@ -9,18 +9,19 @@ public class RedFrogBehavior : MonoBehaviour
     int score = 0;
 	private Vector3 initialPosition;
 	private Quaternion initialRotation;
-   
+    Text redScore;
+
     public GameObject WinSoundsPrefab;
+    public bool isBattleMode;
     // Use this for initialization
     void Start()
     {
 		initialPosition = transform.position;
 		initialRotation = transform.rotation;
+        redScore = GameObject.FindWithTag("RedScore").GetComponent<Text>();
 
         var character = GetComponent<Rigidbody2D>();
         var opponentFrog = GameObject.FindWithTag("BlueFrog");
-
-		var isBattleMode = PlayerPrefs.HasKey ("isBattleMode") && PlayerPrefs.GetString ("isBattleMode") == "true";
 
 		if (!isBattleMode) 
 		{
@@ -32,11 +33,11 @@ public class RedFrogBehavior : MonoBehaviour
     {
         if (coll.gameObject.tag == ("FireflyClone"))
         {
-            Debug.Log("Fred hitting stuff " + coll.gameObject.tag == ("FireflyClone") + "count = " + score);
+            //Debug.Log("Fred hitting stuff " + coll.gameObject.tag == ("FireflyClone") + "count = " + score);
             var fireflyThatWeHit = coll.gameObject;
             Destroy(fireflyThatWeHit);
             score += 1;
-            var redScore = GameObject.FindWithTag("RedScore").GetComponent<Text>();
+
             redScore.text = "Red Fred's Score: " + score + "/20";
 
             if (score >= 20)
@@ -113,16 +114,13 @@ public class RedFrogBehavior : MonoBehaviour
 
 	void OnBecameInvisible() 
 	{
-		var isBattleMode = PlayerPrefs.HasKey ("isBattleMode") && PlayerPrefs.GetString ("isBattleMode") == "true";
-
 		if (isBattleMode) 
 		{
 			if (score > 0)
 			{
 				score -= 1;
-			}
-			var redScore = GameObject.FindWithTag("RedScore").GetComponent<Text>();
-			redScore.text = "Red Fred's Score: " + score + "/20        after fall";
+                redScore.text = "Red Fred's Score: " + score + "/20        after fall";
+            }
 		}
 		RebootPosition ();
 	}

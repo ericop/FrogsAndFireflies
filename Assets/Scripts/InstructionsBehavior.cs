@@ -4,43 +4,42 @@ using UnityEngine;
 
 public class InstructionsBehavior : MonoBehaviour
 {
-
     public bool isBattleMode;
-    bool isShowingInstructions;
+    bool isShowingInstructions = true;
+    public GameObject instructionsObject;
 
     // Use this for initialization
     void Start()
     {
-        var isBattleMode = PlayerPrefs.HasKey("isBattleMode") && PlayerPrefs.GetString("isBattleMode") == "true";
 
-        //if (isBattleMode)
-        //{
+        var instructionsObject1 = instructionsObject;
 
-        //    var hasSeenBattleIntructions = PlayerPrefs.HasKey("hasSeenBattleIntructions")
-        //        && PlayerPrefs.GetString("hasSeenBattleIntructions") == "true";
-        //    if (hasSeenBattleIntructions)
-        //    {
-        //        HideInstructions();
-        //    }
-        //    else
-        //    {
-        //        isShowingInstructions = true;
-        //        //set battle instruction button visible;
-        //    }
-        //}
-        //else
-        //{
-        //    var hasSeenStandardIntructions = PlayerPrefs.HasKey("hasSeenStandardIntructions")
-        //        && PlayerPrefs.GetString("hasSeenStandardIntructions") == "true";
+        //battleInstructions = GameObject.FindWithTag("BattleInstructions");
+        if (isBattleMode)
+        {
+            var hasSeenBattleIntructions = PlayerPrefs.HasKey("hasSeenBattleIntructions") &&
+                PlayerPrefs.GetString("hasSeenBattleIntructions") == "true";
+            if (hasSeenBattleIntructions)
+            {
+                HideInstructions();
+            }
+            else
+            {
+                isShowingInstructions = true;
+                //set battle instruction button visible;
+            }
+        }
+        else
+        {
+            var hasSeenStandardIntructions = PlayerPrefs.HasKey("hasSeenStandardIntructions") &&
+                PlayerPrefs.GetString("hasSeenStandardIntructions") == "true";
 
-        //    if (hasSeenStandardIntructions)
-        //    {
-        //        HideInstructions();
-        //    }
-        //}
+            if (hasSeenStandardIntructions)
+            {
+                HideInstructions();
+            }
+        }
 
-
-        PlayerPrefs.SetString("hasSeenBattleIntructions", "true");
     }
 
     // Update is called once per frame
@@ -56,25 +55,20 @@ public class InstructionsBehavior : MonoBehaviour
         if (isBattleMode)
         {
             PlayerPrefs.SetString("hasSeenBattleIntructions", "true");
-            //hide battle instructions
-            isShowingInstructions = false;
-            gameObject.SetActive(false);
         }
         else
         {
             PlayerPrefs.SetString("hasSeenStandardIntructions", "true");
-            //hide standard instructions
-            isShowingInstructions = false;
-            gameObject.SetActive(false);
         }
+
+        ToggleInstructions();
     }
 
     public void ToggleInstructions()
     {
         isShowingInstructions = !isShowingInstructions;
-        var battleInstructions = GameObject.FindWithTag("BattleInstructions");
         //var instructions = GameObject.FindWithTag("Instructions");
-        battleInstructions.SetActive(isShowingInstructions);
+        instructionsObject.SetActive(isShowingInstructions);
         //instructions.SetActive(isShowingInstructions);
     }
 

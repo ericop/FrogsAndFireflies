@@ -15,8 +15,11 @@ public class StartBattleButtonBehaviour : MonoBehaviour
 
 	public void ButtonClick()
 	{
+        //Use this locally to clear playerprefs
+        //PlayerPrefs.DeleteAll();
 
-		PlayerPrefs.SetString ("isBattleMode", "true");
-		SceneManager.LoadScene("battle");
+        // no longer using isBattleMode playerpref, but setting it ass bool on object in Unity GUI
+        //PlayerPrefs.SetString ("isBattleMode", "true");
+        SceneManager.LoadScene("battle");
 	}
 }
