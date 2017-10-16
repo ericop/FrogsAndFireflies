@@ -1,0 +1,90 @@
+Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: ATI Radeon HD 4600 Series (ID=0x9498)
+    Vendor:   ATI
+    VRAM:     989 MB
+    Driver:   8.970.100.9001
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.121 seconds
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\src\UnityGames\FrogsAndFireflies\builds\Frogs And Fireflies Windows.v4.2_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.959377 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.209210 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 400.
+Total: 2.120873 ms (FindLiveObjects: 0.029582 ms CreateObjectMapping: 0.022941 ms MarkObjects: 0.205567 ms  DeleteObjects: 1.862178 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.559649 ms
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 1.561223 ms (FindLiveObjects: 0.020828 ms CreateObjectMapping: 0.014187 ms MarkObjects: 0.170249 ms  DeleteObjects: 1.355354 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.547877 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 584.
+Total: 1.794863 ms (FindLiveObjects: 0.038034 ms CreateObjectMapping: 0.022941 ms MarkObjects: 0.258090 ms  DeleteObjects: 1.475193 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.167899 ms
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 1.181784 ms (FindLiveObjects: 0.023243 ms CreateObjectMapping: 0.023545 ms MarkObjects: 0.169947 ms  DeleteObjects: 0.964746 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.454300 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 584.
+Total: 2.514499 ms (FindLiveObjects: 0.034412 ms CreateObjectMapping: 0.022639 ms MarkObjects: 0.248129 ms  DeleteObjects: 2.208714 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.750425 ms
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 1.553677 ms (FindLiveObjects: 0.031091 ms CreateObjectMapping: 0.018715 ms MarkObjects: 0.190172 ms  DeleteObjects: 1.313094 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.551499 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 584.
+Total: 2.335496 ms (FindLiveObjects: 0.050410 ms CreateObjectMapping: 0.026261 ms MarkObjects: 0.267448 ms  DeleteObjects: 1.990469 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.882942 ms
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 1.851915 ms (FindLiveObjects: 0.043166 ms CreateObjectMapping: 0.020224 ms MarkObjects: 0.216132 ms  DeleteObjects: 1.571788 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.512559 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 584.
+Total: 2.205092 ms (FindLiveObjects: 0.054938 ms CreateObjectMapping: 0.026563 ms MarkObjects: 0.263524 ms  DeleteObjects: 1.859462 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.568705 ms
+
+Unloading 151 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 1.526509 ms (FindLiveObjects: 0.032299 ms CreateObjectMapping: 0.017206 ms MarkObjects: 0.174777 ms  DeleteObjects: 1.301321 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 219c -> priority: 1 
+  Thread -> id: 3438 -> priority: 1 

@@ -49,21 +49,14 @@ public class InstructionsBehavior : MonoBehaviour
     // Update is called once per frame
     public void HideInstructions()
     {
-
-        if (isBattleMode)
-        {
-            PlayerPrefs.SetString("hasSeenBattleIntructions", "true");
-        }
-        else
-        {
-            PlayerPrefs.SetString("hasSeenStandardIntructions", "true");
-        }
+        PlayerPrefs.SetString(isBattleMode ? "hasSeenBattleIntructions" : "hasSeenStandardIntructions", "true");
 
         ToggleInstructions();
     }
 
     public void ToggleInstructions()
     {
+        PlayerPrefs.SetString(isBattleMode ? "hasSeenBattleIntructions" : "hasSeenStandardIntructions", "true");
         isShowingInstructions = !isShowingInstructions;
         //var instructions = GameObject.FindWithTag("Instructions");
         instructionsObject.SetActive(isShowingInstructions);
