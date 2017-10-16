@@ -12,8 +12,6 @@ public class InstructionsBehavior : MonoBehaviour
     void Start()
     {
 
-        var instructionsObject1 = instructionsObject;
-
         //battleInstructions = GameObject.FindWithTag("BattleInstructions");
         if (isBattleMode)
         {
