@@ -22,8 +22,9 @@ This is a 2 player game where each player controls a frog to catch fireflies to 
 
 1. From https://github.com/ericop/FrogsAndFireflies on desktop click Clone or download then Download ZIP (File includes all builds, etc. so its over 200MB)
 2. Unzip FrogsAndFireflies-master.zip to a handy location and unzip it.
-3. Go into `..{where_ever_up_unzipped_it}\FrogsAndFireflies-master\FrogsAndFireflies-master\builds` and `MacOS.v4.2.app`should be an installable app
-
+3. Go into `..{where_ever_up_unzipped_it}\FrogsAndFireflies-master\FrogsAndFireflies-master\builds` and  'MacOS.v4.2`  (or `MacOS.v4.2.app` if you show app extensions) should be an installable app by double clicking it
+- Note: If you see the pop-up `“MacOS.v4.2” can’t be opened because it is from an unidentified developer.`do a two-finger, or Ctrl + Click to get multiple options and click "Open" > "OK" on the popup.
+  - Detailed instruction for how to allow the app to run can be found at http://www.iclarified.com/28180/how-to-open-applications-from-unidentified-developers-in-mac-os-x-mountain-lion
 ## Games Assets
 
 - Image Assest for this game are from Glitch the Game https://www.glitchthegame.com/ and are in public domain.
