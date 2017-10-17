@@ -18,6 +18,11 @@ This is a 2 player game where each player controls a frog to catch fireflies to 
 3. Go into `C:\Users\{YourWindowsUserName}\Downloads\FrogsAndFireflies-master\FrogsAndFireflies-master\builds` and double click `Frogs And Fireflies Windows.v4.2.exe`
 - Note: For Windows builds, it needs the `Frogs And Fireflies Windows.v4.2_Data` directroy and all that's in it and the `Frogs And Fireflies Windows.v4.2.exe` to function. If those are all you want you can drag them both to your Desktop, etc. and the `Frogs And Fireflies Windows.v4.2.exe` should still play just fine and you can delete the rest of the files in `C:\Users\{YourWindowsUserName}\Downloads\FrogsAndFireflies-master\`
 
+## How to Install on macOS
+
+1. From https://github.com/ericop/FrogsAndFireflies on desktop click Clone or download then Download ZIP (File includes all builds, etc. so its over 200MB)
+2. Unzip FrogsAndFireflies-master.zip to a handy location and unzip it.
+3. Go into `..{where_ever_up_unzipped_it}\FrogsAndFireflies-master\FrogsAndFireflies-master\builds` and `MacOS.v4.2.app`should be an installable app
 
 ## Games Assets
 
