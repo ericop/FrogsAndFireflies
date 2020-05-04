@@ -1,5 +1,5 @@
 # FrogsAndFireflies
-Frogs and Fireflies by EricOP and Ellie: This games got hop!
+[Frogs and Fireflies by EricOP and Ellie](https://play.google.com/store/apps/details?id=com.OrangePantsStudios.FrogsAndFirefliesByEopAndEllie): This games got hop!
 
 ![frogandfirefliesscreenshot](https://cloud.githubusercontent.com/assets/5218249/25096010/4395bcc4-236c-11e7-87f2-8c3e3f82d2cb.JPG)
 
